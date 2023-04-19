@@ -43,29 +43,4 @@ public class ViewController {
 		return mav;
 	}
 	
-	@RequestMapping(value="view/boardUpdate", method = RequestMethod.POST)
-	public ModelAndView boardUpdate(Board board) {
-	boardService.boardUpdate(board);
-	ModelAndView mav = new ModelAndView("redirect:/view/boardDetail?id=" + board.getId());
-	return mav;
-	}
-	
-	@RequestMapping(value="view/boardDelete", method = RequestMethod.GET)
-	public ModelAndView boardDelete(int id) {
-	boardService.boardDelete(id);
-	ModelAndView mav = new ModelAndView("redirect:/view/dashboard");
-	return mav;
-	}
-	
-
-
-//	@RequestMapping("view/dashboard")
-//	public ModelAndView dashboard() {
-//		List<Board> result = boardService.getBoardList();
-//		System.out.println(result);
-//		ModelAndView mav = new ModelAndView();
-//		
-//		return mav;
-//	}
-	
 }
