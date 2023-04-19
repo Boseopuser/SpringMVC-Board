@@ -30,4 +30,11 @@
 
 # 게시판 리스트 , 작성 구현 
 
+# 에러&오류 에피소드 
+- JRE System Library unbound 오류 해결 에피소드 
+- 'java.lang.exceptionininitializererror' 에러 
+- java.lang.StackOverflowError
+- xml,Servlet 파일의 버전 중요성  
+
+
 # 게시판 수정 , 삭제 Update ing ~ 
