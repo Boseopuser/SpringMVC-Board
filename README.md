@@ -25,10 +25,23 @@
 - Spring Tools 3 (Standalone Edition) 3.9.14.RELEASE
 - Spring Tools 3 Add-On for Spring Tools 4 (3.9.22.RELEASE)
 
-# 로그인 , 로그아웃 , 회원가입 
+# 로그인 , 로그아웃 
 
 
-# 게시판 리스트 , 작성 구현 
+https://user-images.githubusercontent.com/128597230/233071034-626298a2-01b8-4646-93d1-14e1ae23db06.mp4
+
+
+# 회원가입 
+
+
+https://user-images.githubusercontent.com/128597230/233071676-6b5c4d72-ecc3-4ca4-bacd-878751959c25.mp4
+
+
+
+# 게시판 리스트 , 작성 구현
+
+https://user-images.githubusercontent.com/128597230/233071258-af1e28b9-0730-4716-b7f3-2525e714f021.mp4
+
 
 # 에러&오류 에피소드 
 - JRE System Library unbound 오류 해결 에피소드 
@@ -37,4 +50,4 @@
 - xml,Servlet 파일의 버전 중요성  
 
 
-# 게시판 수정 , 삭제 Update ing ~ 
+# 게시판 수정 , 삭제 업데이트 
