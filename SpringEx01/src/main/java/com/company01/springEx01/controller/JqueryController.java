@@ -30,30 +30,7 @@ public class JqueryController {
 		result = boardService.boardwrite(board); 
 		return result;
 	}
-	
-	@RequestMapping(value="jquery/boardupdate",method = RequestMethod.POST)
-	@ResponseBody
-	public int boardupdate(Board board) {
-	int result = 0;
-	result = boardService.boardupdate(board);
-	return result;
-	}
-	
-	
-	@RequestMapping(value="jquery/boarddelete",method = RequestMethod.POST)
-	@ResponseBody
-	public int boarddelete(int id) {
-	int result = 0;
-	result = boardService.boarddelete(id);
-	return result;
-	}
-
-
-
-
-
-
-	
+		
 	@RequestMapping("jquery/logout")
 	public String logout(HttpSession session) {
 		session.removeAttribute("loginUser");
